@@ -121,7 +121,7 @@ pip install pandas matplotlib seaborn
 ---
 
 ## 📸 Dashboard Preview
-![Tableau Dashboard](screenshots/dashboard.png)
+![Tableau Dashboard](Dasboard.png)
 
 ---
 
