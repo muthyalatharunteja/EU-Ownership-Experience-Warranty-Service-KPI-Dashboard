@@ -27,7 +27,7 @@ This project directly reflects the responsibilities of an **EU Ownership Experie
 ---
 
 ## 📊 Dataset
-- **Source:** Vehicle Maintenance Dataset (Kaggle)
+- **Source:** Vehicle_Maintenance_Dataset ([Kaggle](https://www.kaggle.com/datasets/chavindudulaj/vehicle-maintenance-data))
 - **Size:** 50,000 vehicle records
 - **Original columns:** 20
 - **Columns used:** 13 (selected for Warranty & Service Marketing relevance)
@@ -76,12 +76,12 @@ This project directly reflects the responsibilities of an **EU Ownership Experie
 ## 📁 Project Structure
 ```
 eu-ownership-experience-warranty_service-dashboard/
-├── sql/
-│   ├── phase1_create_table.sql       # Schema creation & data load
-│   └── phase2_kpi_queries.sql        # 8 KPI queries across 3 teams
-├── python/
-│   └── phase3_warranty_kpi.ipynb     # Cleaning + 6 visualizations
-├── data/
+├── sql/ (Phase_1-2_queries.sql)
+│   ├── phase1_create_table     # Schema creation & data load
+│   └── phase2_kpi_queries       # 8 KPI queries across 3 teams
+├── python/(phase3_warranty_kpi.ipynb )
+│   └── phase3_warranty_kpi     # Cleaning + 6 visualizations
+├── data/()
 │   └── warranty_clean.csv            # Cleaned dataset (13 columns)
 ├── screenshots/
 │   ├── dashboard.png                 # Final Tableau dashboard
@@ -89,8 +89,7 @@ eu-ownership-experience-warranty_service-dashboard/
 │   ├── chart2_maintenance_by_age.png
 │   ├── chart3_heatmap.png
 │   ├── chart4_monthly_trend.png
-│   ├── chart5_fuel_type.png
-│   └── chart6_owner_type.png
+│   └── chart5_fuel_type.png
 └── README.md
 ```
 
@@ -100,9 +99,9 @@ eu-ownership-experience-warranty_service-dashboard/
 
 ### SQL
 1. Install MySQL Workbench
-2. Run `sql/phase1_create_table.sql` to create schema
+2. Select (phase 1) in `Phase_1-2_queries.sql` & Run to create schema
 3. Import `vehicle_maintenance_data.csv` using Table Data Import Wizard
-4. Run `sql/phase2_kpi_queries.sql` for all KPI queries
+4. Select (phase 2) in `Phase_1-2_queries.sql` & Run for all KPI queries
 
 ### Python
 1. Install dependencies:
@@ -116,7 +115,7 @@ pip install pandas matplotlib seaborn
 ### Tableau
 1. Open Tableau Public
 2. Connect to `data/warranty_clean.csv`
-3. View live dashboard: [Tableau Public Link](#) ← add your link here
+3. View dashboard: [Tableau Public Link](#) ← add your link here
 
 ---
 
@@ -127,7 +126,7 @@ pip install pandas matplotlib seaborn
 
 ## 👤 Author
 **Tharun Teja Muthyala**  
-[LinkedIn](#) | [Tableau Public](#) | [GitHub](#)
+[LinkedIn]([https://www.linkedin.com/in/muthyalatharunteja]) | [GitHub]([https://github.com/muthyalatharunteja]) | [PORTFOLIO] ([https://muthyalatharunteja.github.io/Portfolio/])
 
 ---
 
