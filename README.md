@@ -1,6 +1,6 @@
 # 🚗 EU Ownership Experience Warranty & Service KPI Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Dasboard.png)
 
 ## 📌 Project Overview
 An end-to-end data analytics project built to simulate the **EU Ownership Experience Warranty & Service Reporting Pipeline.**  
