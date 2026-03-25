@@ -116,7 +116,7 @@ pip install pandas matplotlib seaborn
 ### Tableau
 1. Open Tableau Public
 2. Connect to `data/warranty_clean.csv`
-3. View dashboard: [Tableau Public Link](#) ← add your link here
+3. View dashboard: Tableau Dashboard([Automotive_Warranty_service.twb])
 
 ---
 
