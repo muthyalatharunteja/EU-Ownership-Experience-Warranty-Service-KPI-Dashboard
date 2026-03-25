@@ -1,4 +1,4 @@
-# 🚗 EU Ownership Experience Warranty & Service KPI Dashboard
+# EU Ownership Experience Warranty & Service KPI Dashboard
 
 ![Dashboard](Dasboard.png)
 
@@ -85,11 +85,12 @@ eu-ownership-experience-warranty_service-dashboard/
 │   └── warranty_clean.csv            # Cleaned dataset (13 columns)
 ├── screenshots/
 │   ├── dashboard.png                 # Final Tableau dashboard
-│   ├── chart1_issues_by_model.png
-│   ├── chart2_maintenance_by_age.png
-│   ├── chart3_heatmap.png
-│   ├── chart4_monthly_trend.png
-│   └── chart5_fuel_type.png
+│   ├── chart1_issues_by_model
+│   ├── chart2_Warranty_status
+│   ├── chart3_maintenance_by_age
+│   ├── chart4_monthlyservice_trend
+│   ├── chart5_fuel_type
+│   └── chart6_heatmap
 └── README.md
 ```
 
